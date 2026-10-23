@@ -106,5 +106,5 @@ Expected answers are justified independently of the solution: brute force over a
 **Observations.** Both grow roughly linearly-with-log factor, as `O(m log m)` predicts. Kruskal was about 1.2–2.1× faster here. **Limitations:** this is a constant-factor result for CPython only: Kruskal's sort runs in C (`sorted`), while Prim builds adjacency tuples and does many Python-level heap operations. It does not show that Kruskal is asymptotically better. One machine, one random graph per size, 5 runs, no density variation; other languages or denser graphs may rank them differently.
 
 ## Sources and AI use
- 
+
  None
